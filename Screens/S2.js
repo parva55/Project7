@@ -52,9 +52,9 @@ export default S2 = ({navigation,route}) => {
             GetMovieImage(route.params.id);
             GetMovieActor(route.params.id);
         }
-        GetMovieInfo(575264);
-        GetMovieImage(575264);
-        GetMovieActor(575264);
+        // GetMovieInfo(575264);
+        // GetMovieImage(575264);
+        // GetMovieActor(575264);
     },[route]);
 
     return (
